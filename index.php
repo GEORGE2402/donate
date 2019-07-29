@@ -24,18 +24,29 @@
             <img class="center-img" src="http://resonantmotion.org/wp-content/uploads/2013/11/donate-icon-title-03.png"
                 width="440px" height="460px">
             <div class="justify-content-center center" style="text-align:center;">
-                <ul class="nav nav-tabs">
+                <ul class="nav nav-tabs justify-content-center">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Donation Options</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">$5</a>
-                            <a class="dropdown-item" href="#">$10</a>
-                            <a class="dropdown-item" href="#">$15</a>
-                            <a class="dropdown-item" href="#">$20</a>
+                            <a class="dropdown-item" href="donation.php?price=5">$5</a>
+                            <a class="dropdown-item" href="donation.php?price=10">$10</a>
+                            <a class="dropdown-item" href="donation.php?price=15">$15</a>
+                            <a class="dropdown-item" href="donation.php?price=20">$20</a>
                         </div>
                     </li>
                 </ul>
+            </div>
+            <div style="text-align:center;">
+            <h3>or</h3>
+            <p>you can make your own donation number</p>
+            <form class="form-inline justify-content-center" action="donation.php">
+            <div class="form-group mx-sm-3 mb-2">
+            <h2>$</h2>    
+            <input type="number" class="form-control" name="price" min="0">
+            </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
             </div>
         </div>
     </div>
