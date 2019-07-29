@@ -23,7 +23,7 @@
             </div>
 
             <h2 style="text-align:center;">Donate to us below!</h2>
-            <img class="center-img" src="http://resonantmotion.org/wp-content/uploads/2013/11/donate-icon-title-03.png"
+            <img class="center-img" src="img/donate.png"
                 width="440px" height="460px">
             <div class="justify-content-center center" style="text-align:center;">
                 <ul class="nav nav-tabs justify-content-center">
