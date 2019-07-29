@@ -1,0 +1,23 @@
+    #header-top {
+        color: black;
+    }
+    
+    #type {
+        background-color: #cec1c1;
+    }
+    
+    #background-type {
+        background-color: #f5ecec;
+    }
+    
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    
+    .center {
+        margin: 0 auto;
+        text-align: center;
+    }
