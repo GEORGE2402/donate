@@ -1,5 +1,7 @@
 <?php
-    $name = "A Good Charatable Company Name";
+    session_start();
+    $name = "A Company Name";
+    global $name;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,9 +16,9 @@
 </head>
 
 <body>
-    <div id="background-type">
-        <div class="container" id="type">
-            <div id="header-top">
+    <div class="background-type">
+        <div class="container type">
+            <div class="header-top">
                 <h1 style="text-align:center;"><?php echo $name;?>'s Donate Page</h1>
             </div>
 

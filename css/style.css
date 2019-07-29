@@ -1,12 +1,12 @@
-    #header-top {
+    .header-top {
         color: black;
     }
     
-    #type {
+    .type {
         background-color: #cec1c1;
     }
     
-    #background-type {
+    .background-type {
         background-color: #f5ecec;
     }
     
