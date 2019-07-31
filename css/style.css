@@ -1,27 +1,44 @@
-    .header-top {
-        color: black;
-    }
-    
-    .type {
-        background-color: #cec1c1;
-    }
-    
-    .background-type {
-        background-color: #f5ecec;
-    }
-    
-    .center-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-    }
-    
-    .center {
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    .nav-tabs {
-        border-bottom: none;
-    }
+.header-top {
+    color: black;
+}
+
+.type {
+    background-color: #cec1c1;
+}
+
+.background-type {
+    background-color: #f5ecec;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.small-space {
+    padding: 5px;
+}
+
+.panel-title {
+    display: inline;
+    font-weight: bold;
+}
+
+.checkbox.pull-right {
+    margin: 0;
+}
+
+.pl-ziro {
+    padding-left: 0px;
+}

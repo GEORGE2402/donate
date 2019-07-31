@@ -1,0 +1,1 @@
+<h1>Your donation was cancel.</h1>

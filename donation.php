@@ -23,9 +23,38 @@
                 <h1 style="text-align:center;"><?php echo $name;?>'s Donate Page</h1>
             </div>
             <h2 style="text-align:center;">Are you sure you want to donate $<?php echo $price;?>?</h2>
-            <div class="justify-content-center center">
-                <button type="button" class="btn btn-success">Yes</button>
-                <button type="button" class="btn btn-danger">No</button>
+            <div class="justify-content-center center form-inline small-space">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Yes
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Payment Info</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="success.php">
+                                    <label>PayPal Email</label>
+                                    <input type="email" name="email">
+                                    <button type="submit" class="btn btn-success">Pay</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="cancel.php">
+                    <button type="button" class="btn btn-danger">No</button>
+                </form>
             </div>
         </div>
     </div>
