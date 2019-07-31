@@ -7,4 +7,6 @@
         echo "ERROR! The donation number was blank!";
     } elseif ($id == "2") {
         echo "ERROR! The email input answer was blank.";
+    } elseif ($id == "3") {
+        echo "ERROR! Login information incorrect.";
     }
